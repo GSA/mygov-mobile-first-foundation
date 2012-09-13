@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width, user-scalable = no" />
+
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/ios/touch-icon-iphone.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/ios/touch-icon-ipad.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/ios/touch-icon-iphone4.png">
+
+  <title>Mobile First Foundation</title>
+  
+  
+  <!-- Core Styles -->
+  <link rel="stylesheet" href="css/core.css">
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+<!-- Nav bar -->
+
+<div class="nav-container group">
+
+  <div class="row">
+    <div class="twelve columns">
+
+      <ul class="nav-bar">
+        <li class="active"><a href="#">Nav Item 1</a></li>
+        <li><a href="#">Nav Item 2</a></li>
+      </ul>
+
+    </div>
+  </div>
+
+</div>
+
+
+<!-- /Nav bar -->
+
+<div class="container">
+
+  <div class="row">
+    <div class="twelve columns">
+      <h2>Mobile First Foundation</h2>
+      <p>Based on version <strong>3.0.9</strong> generated on September 10, 2012, (among other things).</p>
+      <hr />
+    </div>
+  </div> 
+
+  <div class="row">
+    <div class="eight columns">
+
+    <h3>Breadcrumbs</h3>
+
+  <div class="row">
+      <div class="twelve columns">
+    
+        <ul class="breadcrumbs">
+          <li><span>Home</span></li>
+          <li><span>Features</span></li>
+          <li class="current"><span>Gene Splicing</span></li>
+        </ul>
+    
+    </div>
+  </div>
+    
+  <h3>General Typography</h3>  
+    
+  <div class="row">
+    <div class="twelve columns">
+    
+        
+    <h1>h1. This is a very large header.</h1>
+    <h2>h2. This is a large header.</h2>
+    <h3>h3. This is a medium header.</h3>
+    <h4>h4. This is a moderate header.</h4>
+    <h5>h5. This is small header.</h5>
+    <h6>h6. This is very small header.</h6>
+    
+    <p>This is a paragraph. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content so, let&rsquo;s see&#8230; did you know that there are storms occurring on Jupiter that are larger than the Earth? That's pretty cool.</p>
+    
+    <hr />
+  
+    </div>
+  </div>
+   
+  <div class="row">
+    <div class="twelve columns">
+  
+      <h3>Side Nav</h3>
+  
+        <ul class="side-nav">
+          <li class="active"><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Link 3</a></li>
+          <li><a href="#">Link 4</a></li>
+        </ul>
+  
+      </div>
+  </div>
+  
+  
+  <div class="row">
+    <div class="twelve columns">
+    
+      <h3>Filter Subnav</h3>
+    
+      <dl class="sub-nav">
+        <dt>Filter:</dt>
+          <dd class="active"><a href="#">All</a></dd>
+          <dd><a href="#">Active</a></dd>
+          <dd><a href="#">Pending</a></dd>
+          <dd><a href="#">Suspended</a></dd>
+      </dl>   
+  
+    </div>
+  </div>
+  
+      <h3>The Grid</h3>
+
+      <!-- Grid Example -->
+      <div class="row">
+        <div class="twelve columns">
+          <div class="panel">
+            <p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
+          </div>
+        </div>
+      </div>
+     
+     <h3>Fieldset &amp; Form Fields</h3>   
+      
+      <div class="row">
+        <div class="twelve columns">
+              
+        <fieldset>
+        
+        <legend>I am Legend</legend>
+        
+          <ol>
+            <li>
+              <label for="first-name">First Name</label>
+              <input id="first-name" title="First Name" type="text" />
+            </li>
+            
+            <li>
+              <label for="first-name">Last Name</label>
+              <input id="first-name" title="First Name" type="text" />
+            </li>
+            
+            <li>
+              <ul>
+                <li><label for="checkbox-one"><input id="checkbox-one" type="checkbox" />Checkbox One</label></li>
+                <li><label for="checkbox-two"><input id="checkbox-two" type="checkbox" />Checkbox Two</label></li>
+                <li><label for="checkbox-three"><input id="checkbox-three" type="checkbox" />Checkbox Three</label></li>
+              </ul>
+            </li>
+            
+            <li>
+              <label for="first-name">File Upload</label>
+              <input id="first-name" title="First Name" type="file" />
+            </li>
+            
+            <li>
+              <label class="error" for="first-name">Password</label>
+              <input class="error" id="first-name" title="First Name" type="password" />
+              <small class="error">Why this is wrong</small>
+            </li>
+            
+            <li>
+              <ul>
+                <li><label for="radio-one"><input id="radio-one" name="group-one" type="radio" /> Radio One</label></li>
+                <li><label for="radio-two"><input id="radio-two" name="group-one" type="radio" /> Radio Two</label></li>
+                <li><label for="radio-three"><input id="radio-three" name="group-one" type="radio" /> Radio Three</label></li>
+              </ul>
+            </li>
+
+            <li>
+              <label for="select-menu">Choose your beverage</label>
+                <select id="select-menu">
+                <option>Milk</option>
+                <option>Coffee</option>
+                <option>Tea</option>
+                </select>
+            </li>
+     
+            <li>
+            
+              <label for="checkbox1">
+              <input type="checkbox" id="checkbox1">
+              <span class="custom checkbox"></span> Label for Checkbox
+              </label>
+              
+              <label for="checkbox2">
+              <input type="checkbox" id="checkbox2">
+              <span class="custom checkbox"></span> Label for Checkbox
+              </label>
+              
+              <label for="checkbox3">
+              <input type="checkbox" id="checkbox3">
+              <span class="custom checkbox"></span> Label for Checkbox
+              </label>
+            
+            </li>
+   
+          </ol>
+        
+        </fieldset>
+      
+      </div>    
+    </div>
+
+ <div class="row">
+    <div class="twelve columns">
+    
+      <h3>Pagination</h3>
+    
+        <ul class="pagination">
+        <li class="arrow unavailable"><a href="">&laquo;</a></li>
+        <li class="current"><a href="">1</a></li>
+        <li><a href="">2</a></li>
+        <li><a href="">3</a></li>
+        <li><a href="">4</a></li>
+        <li class="unavailable"><a href="">&hellip;</a></li>
+        <li><a href="">12</a></li>
+        <li><a href="">13</a></li>
+        <li class="arrow"><a href="">&raquo;</a></li>
+        </ul>
+  
+    </div>
+  </div>
+
+
+  <h3>Blockquote</h3>
+
+  <div class="row">
+    <div class="twelve columns">
+    
+      <blockquote>
+      I do not fear computers. I fear the lack of them. 
+      <cite>Isaac Asimov</cite>
+      </blockquote>
+      
+    </div>
+  </div>
+  
+    <h3>Tables</h3>
+
+      <h5>Very Long 1st Cell Content</h5>
+				
+				<table class="responsive">
+					
+					<tr>
+						<th>Header 1</th>
+						<th>Header 2</th>
+						<th>Header 3</th>
+						<th>Header 4</th>
+						<th>Header 5</th>
+						<th>Header 6</th>
+						<th>Header 7</th>
+						<th>Header 8</th>
+					</tr>
+					
+					<tr>
+						<td>Ham pork leberkas bresaola, brisket t-bone filet mignon hamburger salami andouille short loin sausage.</td>
+						<td>row 1, cell 2</td>
+						<td>row 1, cell 3</td>
+						<td>row 1, cell 4</td>
+						<td>row 1, cell 5</td>
+						<td>row 1, cell 6</td>
+						<td>row 1, cell 7</td>
+						<td>row 1, cell 8</td>
+					</tr>
+					
+					<tr>
+						<td>Ham pork leberkas bresaola, brisket t-bone filet mignon hamburger salami andouille short loin sausage.</td>
+						<td>row 2, cell 2</td>
+						<td>row 2, cell 3</td>
+						<td>row 2, cell 4</td>
+						<td>row 2, cell 5</td>
+						<td>row 2, cell 6</td>
+						<td>row 2, cell 7</td>
+						<td>row 2, cell 8</td>
+					</tr>
+					
+					<tr>
+						<td>Ham pork leberkas bresaola, brisket t-bone filet mignon hamburger salami andouille short loin sausage.</td>
+						<td>row 3, cell 2</td>
+						<td>row 3, cell 3</td>
+						<td>row 3, cell 4</td>
+						<td>row 3, cell 5</td>
+						<td>row 3, cell 6</td>
+						<td>row 3, cell 7</td>
+						<td>row 3, cell 8</td>
+					</tr>
+					
+					<tr>
+						<td>Ham pork leberkas bresaola, brisket t-bone filet mignon hamburger salami andouille short loin sausage.</td>
+						<td>row 4, cell 2</td>
+						<td>row 4, cell 3</td>
+						<td>row 4, cell 4</td>
+						<td>row 4, cell 5</td>
+						<td>row 4, cell 6</td>
+						<td>row 4, cell 7</td>
+						<td>row 4, cell 8</td>
+					</tr>
+					
+				</table>
+     
+		<h3>Columns</h3>
+
+      <div class="row">
+        <div class="twelve columns">
+            <div class="panel">
+            <p>Twelve columns</p>
+          </div>       
+        </div>
+      </div>
+            
+      
+      <div class="row">
+        <div class="six columns">
+          <div class="panel">
+            <p>Six columns</p>
+          </div>
+        </div>
+        <div class="six columns">
+          <div class="panel">
+            <p>Six columns</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="four columns">
+          <div class="panel">
+            <p>Four columns</p>
+          </div>
+        </div>
+        <div class="four columns">
+          <div class="panel">
+            <p>Four columns</p>
+          </div>
+        </div>
+        <div class="four columns">
+          <div class="panel">
+            <p>Four columns</p>
+          </div>
+        </div>
+      </div>
+      
+    
+    <h3>Tabs</h3>
+    
+      <dl class="tabs">
+        <dd class="active"><a href="#simple1">Simple Tab 1</a></dd>
+        <dd><a href="#simple2">Simple Tab 2</a></dd>
+      </dl>
+
+      <ul class="tabs-content">
+        <li class="active" id="simple1Tab">This is simple tab 1&rsquo;s content. Pretty neat, huh?</li>
+        <li id="simple2Tab">This is simple tab 2&rsquo;s content. Now you see it!</li>
+      </ul>
+            
+      
+    <h3>Buttons</h3>
+
+      <div class="row">
+       
+        <div class="six columns">
+          <p><a href="#" class="small button">Small Button</a></p>
+          <p><a href="#" class="button">Medium Button</a></p>
+          <p><a href="#" class="large button">Large Button</a></p>
+        </div>
+        
+        <div class="six columns">
+          <p><a href="#" class="small alert button">Small Alert Button</a></p>
+          <p><a href="#" class="success button">Medium Success Button</a></p>
+          <p><a href="#" class="large secondary button">Large Secondary Button</a></p>
+        </div>
+        
+      </div>
+      
+    </div>
+
+    <div class="four columns">
+      <div class="panel">
+
+      <h4>Other Resources</h4>
+      
+      <p>Once you&rsquo;ve exhausted the fun in this document, you should check out:</p>
+        <ul class="square">
+          <li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
+          <li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
+          <li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
+        </ul>
+      
+      </div>
+    </div>
+  </div>
+
+ 
+  
+  <div class="row">
+    <div class="twelve columns">
+      <h3>Reveal</h3>
+      <p><a href="#" data-reveal-id="exampleModal" class="button">Example modal</a></p>
+    </div>
+  </div>
+  
+  <div id="exampleModal" class="reveal-modal">
+    <h2>This is a modal.</h2>
+    <p>
+      Reveal makes these very easy to summon and dismiss. The close button is simple an anchor with a unicode 
+      character icon and a class of <code>close-reveal-modal</code>. Clicking anywhere outside the modal will 
+      also dismiss it.
+    </p>
+    <a class="close-reveal-modal">×</a>
+  </div>
+   
+   
+  </div> 
+   
+  <!-- Included JS Files (Uncompressed) -->
+  <!-- 
+  
+  <script src="js/jquery.foundation.reveal.js"></script>
+  <script src="js/jquery.foundation.navigation.js"></script>
+  <script src="js/jquery.foundation.tabs.js"></script>
+  <script src="js/jquery.foundation.accordion.js"></script>
+  <script src="js/foundation.min.js"></script> 
+  <script src="js/modernizr.foundation.js"></script>
+  <script src="js/jquery.foundation.mediaQueryToggle.js"></script>
+  <script src="js/jquery.foundation.orbit.js"></script>
+  <script src="js/jquery.foundation.buttons.js"></script>
+  <script src="js/jquery.foundation.forms.js"></script> 
+  <script src="js/jquery.foundation.tooltips.js"></script>
+  <script src="js/jquery.placeholder.js"></script>  
+  <script src="js/jquery.foundation.alerts.js"></script>
+   
+  <!-- Included JS Files (Compressed) --> 
+  
+  <!-- Initialize JS Plugins -->
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+    
+    <script src="js/foundation.min.js"></script>
+    <script src="js/responsive-tables.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="js/app.js"></script>
+</body>
+</html>
