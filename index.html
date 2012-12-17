@@ -9,12 +9,9 @@
   <meta charset="utf-8" />
 
   <!-- Set the viewport width to device width for mobile -->
-  <meta name="viewport" content="width=device-width, user-scalable = no" />
+  <meta name="viewport" content="width=device-width"/>
 
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" href="img/ios/touch-icon-iphone.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/ios/touch-icon-ipad.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/ios/touch-icon-iphone4.png">
+
 
   <title>Mobile First Foundation</title>
   
@@ -32,19 +29,85 @@
 
 <!-- Nav bar -->
 
-<div class="nav-container group">
 
-  <div class="row">
-    <div class="twelve columns">
-
-      <ul class="nav-bar">
-        <li class="active"><a href="#">Nav Item 1</a></li>
-        <li><a href="#">Nav Item 2</a></li>
+<div class="row">
+  <div class="twelve columns">
+    <nav class="top-bar">
+      <ul>
+        <!-- Title Area -->
+        <li class="name">
+          <h1>
+            <a href="#">
+              Top Bar Title
+            </a>
+          </h1>
+        </li>
+        <li class="toggle-topbar"><a href="#"></a></li>
       </ul>
 
-    </div>
-  </div>
+      <section>
+        <!-- Left Nav Section -->
+        <ul class="left">
+          <li class="divider"></li>
+          <li class="has-dropdown">
+            <a class="active" href="#">Item 1</a>
+            <ul class="dropdown">
+              <li><label>Section Name</label></li>
+              <li class="has-dropdown">
+                <a href="#" class="">Level 1, Has Dropdown</a>
+                <ul class="dropdown">
+                  <li><a href="#">Level 2</a></li>
+                  <li><a href="#">Level 2</a></li>
+                  <li class="has-dropdown"><a href="#">Level 2, Has Dropdown</a>
+                    <ul class="dropdown">
+                      <li><label>Section</label></li>
+                      <li><a href="#">Level 3</a></li>
+                      <li><a href="#">Level 3</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Level 3</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Level 2</a></li>
+                  <li><a href="#">Level 2</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Level 1</a></li>
+              <li><a href="#">Level 1</a></li>
+              <li class="divider"></li>
+              <li><label>Section Name</label></li>
+              <li><a href="#">Level 1</a></li>
+              <li><a href="#">Level 1</a></li>
+              <li><a href="#">Level 1</a></li>
+              <li class="divider"></li>
+              <li><a href="#">See all &rarr;</a></li>
+            </ul>
+          </li>
+          <li class="divider hide-for-small"></li>
+        </ul>
 
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li class="divider show-for-medium-and-up"></li>
+          <li class="has-dropdown">
+            <a href="#">Item 2</a>
+            <ul class="dropdown">
+              <li><label>Section Name</label></li>
+              <li><a href="#" class="">Level 1</a></li>
+              <li><a href="#">Dropdown Option</a></li>
+              <li><a href="#">Dropdown Option</a></li>
+              <li class="divider"></li>
+              <li><label>Section Name</label></li>
+              <li><a href="#">Dropdown Option</a></li>
+              <li><a href="#">Dropdown Option</a></li>
+              <li><a href="#">Dropdown Option</a></li>
+              <li class="divider"></li>
+              <li><a href="#">See all &rarr;</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </nav>
+  </div>
 </div>
 
 
